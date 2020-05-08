@@ -1,2 +1,3 @@
-console.log("JavaScript is working!");
- 
+$('button').click(()=> {
+    $('.first').toggleClass('hidden');
+})
